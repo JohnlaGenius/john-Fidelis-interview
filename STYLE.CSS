@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+#file_excel {
+  margin-bottom: 10px;
+}
+
+#upload-btn {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#chart2 {
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  width: 930;
+  border: 3px solid black;
+  background-color: #F0F0F0;
+}
+#chart3 {
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  width:930;
+  border: 3px solid black;
+  background-color: #F0F0F0;
+}
+#chart4 {
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  width: 930px;
+  border: 3px solid black;
+  background-color: #F0F0F0;
+}
+#dashboard {
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  width: 930px;
+  border: 3px solid black;
+  background-color: #F0F0F0;
+}
+
+img {
+  width: 20%;
+  height: 30%;
+}
+
+.login-img {
+  width: 30%;
+  height: 30%;
+}
+
+.split-left {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  right: 50%;
+  background-color: #F3FDE8;
+}
+
+.login {
+  position: fixed;
+  margin-right: 150px;
+  left: 60%;
+  width: 400px;
+  top: 30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+  text-decoration-color: black;
+  background-color: #F3FDE8;
+}
+
+.split-right {
+  height: 100%;
+  width: 50%;
+  left: 50%;
+  position: fixed;
+  background-color: #A8DF8E;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <link rel="stylesheet" href="STYLE.CSS">
+</head>
+<body class="login-body">
+  <table>
+    <tr>
+      <td><div class="split-right">
+             <div class="login">
+          <h2 class="login-h2">Login</h2>
+          <label for="username">Username:</label>
+          <input type="text" id="username" placeholder="Enter your username">
+          <label for="password">Password:</label>
+          <input type="password" id="password" placeholder="Enter your password">
+          <button onclick="login()">Login</button>
+             </div>
+          </div>
+      </td>
+      <td><div class="split-left">
+        <img class=" login-img" src="ahi-logo-main.png" alt="AHNI-LOGO">
+          </div>
+      </td>
+    </tr>
+  </table>
+  <div class="container">
+  <script>
+    function login() {
+      var username = document.getElementById('username').value;
+      var password = document.getElementById('password').value;
+      if (username === '' || password === '') {
+        alert('Please enter both username and password.');
+      } else {
+        if (username === 'interview' && password === 'interview')
+         {
+          window.location.href = 'index.html';
+         } else {
+          alert('Invalid username or password. Please try again.');
+        }
+      }
+    }
+  </script>
+</body>
+</html>

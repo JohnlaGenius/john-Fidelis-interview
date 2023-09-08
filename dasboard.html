@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<title>AHNI ACE1 DASHBOARD FOR STO DATABASE INTERVIEW</title>
+<link rel="stylesheet" href="STYLE.CSS">
+</head>
+<body>
+  <img src="ahi-logo-main.png" alt="AHNI-LOGO">
+    <h1>AHNI ACE1 DASHBOARD FOR STO DATABASE INTERVIEW</h1>
+    <h1>Upload and Dashboard</h1>
+    <form  method="post" enctype="multipart/form-data">
+             <label for="file">File</label>
+             <input type="file" id="file_excel" accept=".xls,.xlsx">
+              <button id="upload-btn">Upload</button>
+              <table>
+                <Tr>
+                  <td>
+                      <div id="dashboard"></div></td>
+                  <td>
+                      <div id="chart2"></div></td>
+                </tr>
+                <tr>
+                  <td>
+                      <div id="chart3"></div></td>
+                  <td>
+                      <div id="chart4"></div></td>
+                </tr>      
+    </form>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="script.js"></script>
+  </body>
+  </html>
